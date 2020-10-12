@@ -1,6 +1,7 @@
-{
+{ // 配置编译选项
     "compilerOptions": {
-        "module": "commonjs",
-        "outDir": "./dist/"
+        "module": "amd", // 使用的模块化系统
+        "target": "es2017",
+        "outDir": "./dist/" // 指定输出目录
     }
 }
