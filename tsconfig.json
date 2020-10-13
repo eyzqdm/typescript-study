@@ -1,7 +1,10 @@
 { // 配置编译选项
     "compilerOptions": {
-        "module": "amd", // 使用的模块化系统
-        "target": "es2017",
+        "module": "umd", // 使用的模块化系统
+        "target": "es2017", // 编译后的代码版本
         "outDir": "./dist/" // 指定输出目录
-    }
+    },
+    "include": [ //  要编译的文件夹
+        "./src/**/*"  // src下所有文件
+    ]
 }
