@@ -38,3 +38,15 @@ function fn5(x:number,y=1):void {
     
 }
 fn5(1)
+
+
+
+/* 剩余参数  类型必须为数组*/
+
+function fn6 (...args:[])
+{
+    console.log(args);
+    
+}
+
+/*  函数重载  同名函数实现不同功能 */
