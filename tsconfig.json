@@ -2,7 +2,14 @@
     "compilerOptions": {
         "module": "umd", // 使用的模块化系统
         "target": "es2017", // 编译后的代码版本
-        "outDir": "./dist/" // 指定输出目录
+        "outDir": "./dist/", // 指定输出目录
+        "noImplicitAny": false,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
     },
     "include": [ //  要编译的文件夹
         "./src/**/*"  // src下所有文件
